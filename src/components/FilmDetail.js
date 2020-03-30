@@ -92,7 +92,7 @@ class FilmDetail extends React.Component {
           title={this.state.film.Title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h5" component="h2">
             {this.state.film.Title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
